@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/application.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="/js/application.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Chris Bunkers</title>
+</head>
+<body>
+  <nav class="black">
+    <div class="navbar-wrapper container">
+      <a href="/" class="brand-logo">Chris Bunkers</a>
+      <ul class="right">
+        <li><a href = '/'>Home</a></li>
+        <li><a href = '/projects'>Projects</a></li>
+        <li><a href = '/blog'>Blog</a></li>
+        <li><a class="modal-trigger waves-effect waves-light" href = '/contact'>Contact</a></li>
+        <%= erb :'/_contactmodal'%>
+
+      </div>
+    </ul>
+  </div>
+</nav>
+<%= yield %>
+<footer class="black">
+  <%= erb :'/_social'%>
+  </footer>
+</body>
+</html>
+
