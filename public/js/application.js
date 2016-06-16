@@ -15,9 +15,19 @@
       }
     }
   });
-   $(".modal-trigger").click(function(event){
+   $(".modal-trigger").click(function(){
     event.preventDefault();
     $('#modal1').openModal();
+  });
+
+   $("#mission-statement").mouseenter(function(){
+    $("#arrow").animate({opacity: 1.0},500);
+   }).mouseleave(function(){
+    $("#arrow").animate({opacity: 0.0},500);
    });
+
+
+
+
  });
 

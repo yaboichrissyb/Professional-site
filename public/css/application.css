@@ -31,14 +31,16 @@ footer {
   color:white;
   height: 100%;
   width:100%;
-  padding: 20px 20% 20px 20%;
+  padding: 20px 20% 0px 20%;
 }
 
 .mission-container{
-  margin: 10% 20% 11% 20%;
+  margin: 13% 20% 5% 23%;
   padding: 20px;
 }
-
+.skill-container a{
+  color:white;
+}
 #mission{
   font-size: 6em;
 }
@@ -118,8 +120,10 @@ footer {
 #social td{
   padding:20px;
 }
-
-#social td:hover{
+#skills td{
+  padding:7px;
+}
+td:hover{
   background-color:#4b4b4b;
 };
 
@@ -149,3 +153,9 @@ footer {
 .short{
   border-bottom: 1px solid #bebebe;
 }
+#arrow{
+  margin-left: 37%;
+  height:5em;
+  opacity:0.0;
+}
+
