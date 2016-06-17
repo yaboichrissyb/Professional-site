@@ -43,3 +43,17 @@ Dir[APP_ROOT.join('app', 'helpers', '*.rb')].each { |file| require file }
 
 # Set up the database and models
 require APP_ROOT.join('config', 'database')
+
+Pony.options = {
+  :via => :smtp,
+  :via_options => {
+    :address => 'smtp.sendgrid.net',
+    :port => '587',
+    :domain => 'heroku.com',
+    :user_name => 'app52272931
+',
+    :password => 'd591kg3a2420',
+    :authentication => :plain,
+    :enable_starttls_auto => true
+  }
+}

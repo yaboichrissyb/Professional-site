@@ -1,5 +1,6 @@
 # Require config/environment.rb
 require ::File.expand_path('../config/environment',  __FILE__)
+require './env' if File.exists?('env.rb')
 
 set :app_file, __FILE__
 
@@ -10,7 +11,7 @@ Pony.options = {
       :via_options => {
         :address => 'smtp.sendgrid.net',
         :port => '587',
-        :domain => 'myapp.com',
+        :domain => 'gmail.com',
         :user_name => ENV['SENDGRID_USERNAME'],
         :password => ENV['SENDGRID_PASSWORD'],
         :authentication => :plain,
