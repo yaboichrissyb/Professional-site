@@ -1,5 +1,7 @@
 require 'pony'
-
+require 'sinatra'
+require 'dotenv'
+Dotenv.load
 get '/' do
   erb :'index'
 end
@@ -26,9 +28,23 @@ end
 # end
 post '/email' do
   if(params['email'] == params['email2'])&&(params['email'].include?("@"))
-    Pony.mail :to => 'app52272931@heroku.com',
-            :from => params[:email],
-            :body => params[:message]
+    options = {
+      :to => ENV["EMAIL_ADDRESS"],
+      :from => params[:email],
+      :subject => "Message from: #{params[:name]}",
+      :body => params[:message],
+      :via => :smtp,
+      :via_options => {
+        :address => 'smtp.sendgrid.net',
+        :port => '587',
+        :domain => 'heroku.com',
+        :user_name => ENV["SENDGRID_USERNAME"],
+        :password => ENV["SENDGRID_PASSWORD"],
+        :authentication => :plain,
+        :enable_starttls_auto => true
+      }
+    }
+    Pony.mail(options)
+    redirect '/'
   end
-  redirect '/'
 end

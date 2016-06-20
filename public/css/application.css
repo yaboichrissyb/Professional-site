@@ -1,6 +1,6 @@
 footer {
-   left:0px;
-   bottom:40px;
+   bottom:0;
+   left:0;
    height:300px;
    width:100%;
    text-align: center;
@@ -31,7 +31,7 @@ footer {
   color:white;
   height: 100%;
   width:100%;
-  padding: 20px 20% 0px 20%;
+  padding: 20px 20% 20px 20%;
 }
 
 .mission-container{
@@ -159,3 +159,25 @@ td:hover{
   opacity:0.0;
 }
 
+.project-container{
+  margin: 20px 20% 20px 20% ;
+  border:2px solid black;
+  padding:10px;
+  text-align: left;
+}
+
+.project-container:hover{
+  background-color:black;
+  color:white;
+}
+.project-container a{
+  color: #bebebe;
+}
+.project-container a:hover{
+  font-weight: 700;
+}
+.card-links a{
+  margin:0 20px 0 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
