@@ -10,12 +10,14 @@ get '/projects' do
   erb :'projects/index'
 end
 
-get '/projects/:title' do
-  erb :'projects/show'
-end
+
 
 get '/blog' do
   erb :'blog/index'
+end
+
+get '/blog/:title' do
+  erb :"blog/#{params[:title]}"
 end
 
 # get '/blog/:title' do

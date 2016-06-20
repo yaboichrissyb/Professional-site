@@ -73,8 +73,7 @@ footer {
 
 
 .list-container{
-  margin-top: 5%;
-  margin-left: 20%;
+  margin:5% 20% 5% 20%;
 }
 
 .blurb{
@@ -180,4 +179,11 @@ td:hover{
   margin:0 20px 0 20px;
   text-align: center;
   font-size: 1.5em;
+}
+
+pre{
+  border:2px solid black;
+  border-radius: 5px;
+  background:#bebebe;
+  padding:10px;
 }
