@@ -1,4 +1,7 @@
+
 footer {
+  position:static;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
    bottom:0;
    left:0;
    height:300px;
@@ -8,6 +11,8 @@ footer {
  }
 
  #copy{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   margin:10px 10px 0 0;
   padding:5px 10px;
  }
@@ -17,6 +22,8 @@ footer {
   display:none;
 }
 #skills > li >a{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
   text-decoration: none;
   color:white;
 }
@@ -186,4 +193,8 @@ pre{
   border-radius: 5px;
   background:#bebebe;
   padding:10px;
+}
+.project-content{
+  height:700px;
+  width:100%;
 }

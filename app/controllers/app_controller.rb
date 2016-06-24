@@ -20,6 +20,10 @@ get '/blog/:title' do
   erb :"blog/#{params[:title]}"
 end
 
+get '/projects/:title' do
+  erb :"projects/#{params[:title]}/index"
+end
+
 # get '/blog/:title' do
 #   @post = Post.find_by(title: params[:title])
 #   erb :"blog/#{title}"

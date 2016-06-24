@@ -1,0 +1,159 @@
+body{
+  margin:0;
+}
+#map-container{
+  margin:0 auto 0 0;
+}
+
+#map{
+  margin: 20 0 0 10;
+  position:relative;
+  height:640;
+}
+
+.team{
+  position:absolute;
+  height:30px;
+}
+#shown-info{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 250;
+  height: 100%;
+  z-index: 10;
+  background-color: #bebebe; /*dim the background*/
+
+}
+.team-info{
+  display:none;
+}
+#yankees{
+  left:910;
+  top:215;
+}
+#astros{
+  left:455;
+  top:560;
+}
+#angels{
+  left:85;
+  top:387;
+}
+#athletics{
+  left:35;
+  top:275;
+}
+
+#bluejays{
+  left:780;
+  top:180;
+}
+#braves{
+  left:720;
+  top:420;`
+}
+#brewers{
+  left:625;
+  top:200;
+}
+
+#cardinals{
+  left:610;
+  top:320;
+}
+#cubs{
+  left:660;
+  top:245;
+}
+#diamondbacks{
+  left:200;
+  top:415;
+}
+#mariners{
+  left:105;
+  top:40;
+}
+#dodgers{
+  left:115;
+  top:387;
+}
+#giants{
+  left:45;
+  top:275;
+}
+#indians{
+  left:765;
+  top:230;
+}
+#marlins{
+  left:855;
+  top:590;
+}
+#mets{
+  left:890;
+  top:190;
+}
+#nationals{
+  left:840;
+  top:290;
+}
+#orioles{
+  left:880;
+  top:280;
+}
+#padres{
+  left:105;
+  top:425;
+}
+#phillies{
+  left:890;
+  top:250;
+}
+#pirates{
+  left:810;
+  top:255;
+}
+#rangers{
+  left:510;
+  top:465;
+}
+#rays{
+  left:800;
+  top:560;
+}
+#reds{
+  left:735;
+  top:300;
+}
+#redsox{
+  left:950;
+  top:180;
+}
+#rockies{
+  left:350;
+  top:285;
+}
+#royals{
+  left:810;
+  top:255;
+}
+#tigers{
+  left:740;
+  top:215;
+}
+#twins{
+  left:560;
+  top:180;
+}
+#whitesox{
+  left:640;
+  top:245;
+}
+.league{
+  display:inline-block;
+  width:40%;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+}
