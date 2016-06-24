@@ -3,6 +3,7 @@
   float:left;
   clear:both;
   position:relative;
+  margin-top: 40px;
   /*background-image:url('../images/Blank_US_map_48states.svg')*/
 }
 
@@ -17,9 +18,13 @@
   margin:0;
   display:inline-block;
   float:right;
+  position:relative;
+  right:0;
   width: 250px;
-  background-color: #d3d3d3;
+  background-color: #b2b2b2;
   height: 100%;
+  border-left: 2px solid white;
+  z-index:10;
 }
 #shown-info{
   margin:0;
@@ -40,12 +45,13 @@
 
 #division-lists-container{
   position:absolute;
-  bottom:18px;
+  /*bottom:18px;*/
   display:none;
 }
 #team-name{
   height:30px;
-  margin:10px 0 20px 0;
+  margin:30px 0 15px 0;
+  font-weight: 700;
 }
 #shown-info h5{
   margin-left: 20px;
