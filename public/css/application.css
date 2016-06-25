@@ -243,5 +243,7 @@ pre{
   margin-top: 80px;
 }
 .flow{
-  font-size: 5.5vw;
+  font-size: 6.2vw;
+  padding:0px;
+  padding-left:-30px;
 }
