@@ -1,4 +1,6 @@
-
+body{
+  width:100%;
+}
 footer {
    border-top: 1px solid white;
    padding-bottom: 10px;
@@ -44,7 +46,7 @@ footer {
   color:white;
 }
 #mission{
-  min-width:600px;
+  min-width:70%;
   opacity:0;
   font-size: 5em;
 }
@@ -239,4 +241,7 @@ pre{
 
 .mission-container{
   margin-top: 80px;
+}
+.flow{
+  font-size: 5.5vw;
 }
