@@ -15,17 +15,20 @@
 <body>
   <nav class="black">
     <div class="nav-wrapper container">
-      <a href="/" class="brand-logo">Chris Bunkers</a>
-      <ul id="nav-mobile " class="right hide-on-med-and-down">
-        <li><a href = '/'>Home</a></li>
-        <li><a href = '/projects'>Projects</a></li>
-        <li><a href = '/blog'>Blog</a></li>
-        <li><a href = '/resume'>Résumé</a></li>
-        <li><a class="modal-trigger waves-effect waves-light" href = '/contact'>Contact</a></li>
-        <%= erb :'/_contactmodal'%>
-
-      </div>
-    </ul>
+      <a href="/" id="my-name" class="brand-logo left">CHRIS BUNKERS</a>
+      <a class='sandwich dropdown-button btn right black' data-beloworigin="true" href='#' data-activates='dropdown1'>&#9776</a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li class="dropdown-item"><a class="black-text" href='/'>Home</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href= '/projects'>Projects</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href='/blog'>Blog</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href='/resume'>Résumé</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href ="mailto:christopher.bunkers@gmail.com">Contact</a></li>
+        </ul>
+    </div>
   </div>
 </nav>
 <%= yield %>

@@ -1,6 +1,8 @@
  $(document).ready(function(){
-    $("#mission").animate({opacity: 1.0},1000);
-   $("#skills a").click(function(event){
+
+  $("#mission").animate({opacity: 1.0},5000);
+
+  $("#skills a").click(function(event){
     event.preventDefault();
     var skill = $(this).attr("class");
     if(skill === "full-text"){
@@ -16,10 +18,7 @@
       }
     }
   });
-   $(".modal-trigger").click(function(){
-    event.preventDefault();
-    $('#modal1').openModal();
-  });
+
 
    $("#mission-statement").mouseenter(function(){
     $("#arrow").animate({opacity: 1.0},500);
@@ -27,8 +26,8 @@
     $("#arrow").animate({opacity: 0.0},500);
    });
 
-    $('.materialboxed').materialbox();
-  });
+
+
 
 
  });
