@@ -2,6 +2,7 @@ require 'pony'
 require 'sinatra'
 require 'dotenv'
 Dotenv.load
+
 get '/' do
   erb :'index'
 end
@@ -10,12 +11,13 @@ get '/projects' do
   erb :'projects/index'
 end
 
-
-
 get '/blog' do
   erb :'blog/index'
 end
 
+get '/resume' do
+  erb :'resume'
+end
 get '/blog/:title' do
   erb :"blog/#{params[:title]}"
 end
@@ -24,14 +26,6 @@ get '/projects/:title' do
   erb :"projects/#{params[:title]}/index"
 end
 
-# get '/blog/:title' do
-#   @post = Post.find_by(title: params[:title])
-#   erb :"blog/#{title}"
-# end
-
-# get '/contact' do
-#   erb :'contact'
-# end
 post '/email' do
   if(params['email'] == params['email2'])&&(params['email'].include?("@"))
     options = {

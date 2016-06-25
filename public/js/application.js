@@ -1,4 +1,5 @@
  $(document).ready(function(){
+    $("#mission").animate({opacity: 1.0},1000);
    $("#skills a").click(function(event){
     event.preventDefault();
     var skill = $(this).attr("class");
@@ -26,7 +27,8 @@
     $("#arrow").animate({opacity: 0.0},500);
    });
 
-
+    $('.materialboxed').materialbox();
+  });
 
 
  });

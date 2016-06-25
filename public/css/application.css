@@ -1,13 +1,6 @@
-
 footer {
-  position:static;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-   bottom:0;
-   left:0;
-   height:300px;
-   width:100%;
-   text-align: center;
-   border-top: 2px solid white;
+   border-top: 1px solid white;
+   padding-bottom: 10px;
  }
 
  #copy{
@@ -38,7 +31,8 @@ footer {
   color:white;
   height: 100%;
   width:100%;
-  padding: 20px 20% 20px 20%;
+  padding: 30px 0 30px 0;
+  margin-bottom: -21px;
 }
 
 .mission-container{
@@ -49,17 +43,20 @@ footer {
   color:white;
 }
 #mission{
-  font-size: 6em;
+  opacity:0;
+  font-size: 5em;
 }
 .skills-text{
-  border-left: 2px solid white;
+  border-left: 1px solid white;
 }
 
 .skills-text > div{
   margin-top: -8px;
   margin-left: 20px;
 }
-
+.skill-name{
+  font-size: 1.5em;
+}
 #skills{
   text-align: center;
 }
@@ -69,10 +66,11 @@ footer {
 
 .skills-text > div > div > h6{
   line-height: 2;
+  font-size: .8em;
 }
 
 #contact{
-  border-top: 2px solid white;
+  border-top: 1px solid white;
   width:100%;
   height:400px;
   background-color: black;
@@ -112,9 +110,9 @@ footer {
 }
 
 #social{
-  width:30%;
-  float:right;
-  margin: 50px 20% 0 0;
+  /*width:30%;*/
+  /*float:right;*/
+  margin: 30px 20% 0 0;
   border-top: 1px solid white;
 }
 #social a{
@@ -142,14 +140,11 @@ td:hover{
   float: right;
 }
 .footer-copyright{
-  float:left;
-  color:white;
-  width:35%;
-  margin: 80px 0 0 15%;
-  text-align: left;
+  color:grey;
 }
 
 #summary{
+  margin-top: 70px;
   font-size: 1.2em;
 }
 #copy{
@@ -167,7 +162,6 @@ td:hover{
 
 .project-container{
   margin: 20px 20% 20px 20% ;
-  /*border:2px solid black;*/
   padding:10px;
   text-align: left;
 }
@@ -180,7 +174,7 @@ td:hover{
   color: #bebebe;
 }
 .project-container a:hover{
-  font-weight: 700;
+  color:white;
 }
 .card-links a{
   margin:0 20px 0 20px;
@@ -189,7 +183,7 @@ td:hover{
 }
 
 pre{
-  border:2px solid black;
+  border:1px solid black;
   border-radius: 5px;
   background:#bebebe;
   padding:10px;
@@ -197,6 +191,7 @@ pre{
 .project-content{
   height:800px;
   width:100%;
+  margin-bottom: -21px;
 }
 
 .article{
@@ -205,4 +200,15 @@ pre{
 .skills-text div h6{
   line-height: 200%;
   font-size: 1.2em;
+}
+.footer-container{
+  padding-bottom: 20px;
+}
+.strike-through{
+  text-decoration: line-through;
+}
+
+#resume{
+  margin-top: 50px;
+  margin-left: 15%;
 }

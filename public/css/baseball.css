@@ -4,6 +4,9 @@
   clear:both;
   position:relative;
   margin-top: 40px;
+  max-width: 100%;
+  height:auto;
+  width:auto;
   /*background-image:url('../images/Blank_US_map_48states.svg')*/
 }
 

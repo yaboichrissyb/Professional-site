@@ -14,12 +14,13 @@
 </head>
 <body>
   <nav class="black">
-    <div class="navbar-wrapper container">
+    <div class="nav-wrapper container">
       <a href="/" class="brand-logo">Chris Bunkers</a>
-      <ul class="right">
+      <ul id="nav-mobile " class="right hide-on-med-and-down">
         <li><a href = '/'>Home</a></li>
         <li><a href = '/projects'>Projects</a></li>
         <li><a href = '/blog'>Blog</a></li>
+        <li><a href = '/resume'>Résumé</a></li>
         <li><a class="modal-trigger waves-effect waves-light" href = '/contact'>Contact</a></li>
         <%= erb :'/_contactmodal'%>
 
@@ -28,9 +29,10 @@
   </div>
 </nav>
 <%= yield %>
-<footer class="black">
-  <%= erb :'/_social'%>
+  <footer class="black page-footer">
+     <%= erb :'/_social'%>
   </footer>
-</body>
+  </body>
 </html>
+
 
