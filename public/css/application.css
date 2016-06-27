@@ -13,7 +13,6 @@ footer {
   padding:5px 10px;
  }
 
-
 .hidden{
   display:none;
 }
@@ -29,7 +28,7 @@ footer {
   padding-top: 2px;
 }
 .skill-container{
-  margin: 20px 0 0 0;
+  /*margin: 20px 0 0 0;*/
   background-color:black;
   color:white;
   height: 100%;
@@ -91,8 +90,10 @@ footer {
 
 .blurb > a{
   color: black;
-  font-size:2.5em;
-  text-decoration: underline;
+  font-size:1.5em;
+}
+.blurb > a:hover{
+  color:#4b4b4b;
 }
 
 .blurb > p {
@@ -170,9 +171,10 @@ td:hover{
   text-align: left;
 }
 
-.project-container:hover{
-  background-color:black;
-  color:white;
+.project-container:hover .card-title{
+  color:#bebebe;
+  /*background-color:black;
+  color:white;*/
 }
 .project-container a{
   color: #bebebe;
@@ -216,7 +218,8 @@ pre{
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 10%;
-  max-height: 1100px;
+  max-width:80%;
+  height: auto;
 }
 .sandwich{
   font-size: 3em;
@@ -246,4 +249,26 @@ pre{
   font-size: 6.2vw;
   padding:0px;
   padding-left:-30px;
+}
+
+.post-title{
+  text-decoration: none;
+}
+@media all and (max-width: 992px) {
+    .skills-text > div {margin-left:0px;}
+    .skills-text > div > h6{margin-left: 10px;}
+    .footer-container{margin-left:10px;}
+    .article{margin:5% 10% 5% 10%;}
+    .project-container{margin:5% 10% 5% 10%;}
+    #summary{margin-top: 55px;}
+    /*#resume{height:825px;}*/
+
+}
+@media all and (max-width: 600px) {
+   .skills-text { border: none; }
+    #mission div div { font-size: .52em; }
+    #summary{margin-top: 20px;}
+    .footer-container{margin-left:20px;}
+    .skills-text > div{margin-left:10px;}
+    /*#mission div div { font-size: .5em; }*/
 }
