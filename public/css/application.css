@@ -199,16 +199,17 @@ footer {
   text-align: left;
 }
 
-.project-container:hover .card-title{
+.card-title{
   color:#bebebe;
-  /*background-color:black;
-  color:white;*/
+}
+.card-title:hover{
+  color:black;
 }
 .project-container a{
   color: #bebebe;
 }
 .project-container a:hover{
-  color:white;
+  color:black;
 }
 .card-links a{
   margin:0 20px 0 20px;
