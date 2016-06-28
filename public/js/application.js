@@ -129,6 +129,8 @@
       testScroll3();
       testScroll4();
     }
-  window.onscroll = scroller;
+  if(window.location.pathname === '/' ){
+    window.onscroll = scroller;
+  }
 });
 
