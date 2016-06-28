@@ -327,10 +327,10 @@ pre{
       margin-top: 40px;
     }
   .star{margin-left: 1px;}
-  #mission-statement{margin: -70px auto -50px 10px;}
+  #mission-statement{margin: -70px auto -50px auto;}
   #arrow{margin-left: 40%;}
-  .word-bubble h5{font-size:1em;}
-  .star-name{font-size: .9em;}
+  .word-bubble h5{font-size:.95em;}
+  .star-name{font-size: .75em;}
 
 }
 
