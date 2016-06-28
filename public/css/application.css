@@ -316,7 +316,7 @@ pre{
 }
 @media all and (max-width: 600px) {
    .skills-text { border: none; }
-    #mission div div { font-size: .52em; }
+    #mission div div { font-size: .42em; }
     #summary{margin-top: 20px;}
     .footer-container{margin-left:20px;}
     .skills-text > div{margin-left:10px;}
@@ -328,6 +328,7 @@ pre{
     }
   .star{margin-left: 1px;}
   #mission-statement{margin: -70px auto -50px auto;}
+  #arrow{margin-left: 40%;}
 
 }
 
