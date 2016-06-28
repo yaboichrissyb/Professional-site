@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/application.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
+  <script src="/js/application.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Chris Bunkers</title>
+</head>
+<body>
+  <nav class="black">
+    <div class="nav-wrapper container">
+      <a href="/" id="my-name" class="brand-logo left">CB.</a>
+      <a class='sandwich dropdown-button btn right black' data-beloworigin="true" href='#' data-activates='dropdown1'>&#9776</a>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li class="dropdown-item"><a class="black-text" href='/'>Home</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href= '/projects'>Projects</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href='/blog'>Blog</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href='/resume'>Résumé</a></li>
+          <li class="divider"></li>
+          <li class="dropdown-item"><a class=" black-text" href ="mailto:christopher.bunkers@gmail.com">Contact</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+<%= yield %>
+  <footer class="black page-footer">
+     <%= erb :'/_social'%>
+  </footer>
+  </body>
+</html>
+
+

@@ -1,0 +1,206 @@
+#map-container{
+  display:inline-block;
+  float:left;
+  clear:both;
+  position:relative;
+  margin-top: 40px;
+  max-width: 100%;
+  height:auto;
+  width:auto;
+  /*background-image:url('../images/Blank_US_map_48states.svg')*/
+}
+
+#map{
+  position:absolute;
+  margin: 40px 0 0 60px;
+  height:640px;
+}
+
+
+#text-info{
+  margin:0;
+  display:inline-block;
+  float:right;
+  position:relative;
+  right:0;
+  width: 250px;
+  background-color: #b2b2b2;
+  height: 100%;
+  border-left: 2px solid white;
+  z-index:10;
+}
+#shown-info{
+  margin:0;
+  height:100%;
+}
+.league{
+  display:inline-block;
+  width:40%;
+  text-align: center;
+  margin-left: 6%;
+  margin-top: 5%;
+   height:40px;
+  padding:8px 0 5px 0;
+  background-color:grey;
+  border-radius: 5px;
+  color:black;
+}
+
+#division-lists-container{
+  position:absolute;
+  /*bottom:18px;*/
+  display:none;
+}
+#team-name{
+  height:30px;
+  margin:30px 0 15px 0;
+  font-weight: 700;
+}
+#shown-info h5{
+  margin-left: 20px;
+}
+
+.division-list{
+  padding: 5px 5px 5px 5px;
+}
+
+.division-list:hover{
+  background-color:white;
+  border-right: 4px solid black;
+
+}
+.team{
+  position:absolute;
+  height:30px;
+  width:auto;
+  margin:20px 0px 0px 50px;
+  /*padding-top:50px;*/
+  /*margin-top: 50px;*/
+  /*margin-left:50px;*/
+}
+#new-york-yankees{
+  left:910px;
+  top:215px;
+}
+#houston-astros{
+  left:455px;
+  top:560px;
+}
+#los-angeles-angels-of-anaheim{
+  left:85px;
+  top:387px;
+}
+#oakland-athletics{
+  left:35px;
+  top:275px;
+}
+
+#toronto-bluejays{
+  left:780px;
+  top:180px;
+}
+#atlanta-braves{
+  left:720px;
+  top:420px;
+}
+#milwaukee-brewers{
+  left:635px;
+  top:200px;
+}
+
+#st-louis-cardinals{
+  left:610px;
+  top:320px;
+}
+#chicago-cubs{
+  left:660px;
+  top:245px;
+}
+#arizona-diamondbacks{
+  left:200px;
+  top:415px;
+}
+#seattle-mariners{
+  left:105px;
+  top:40px;
+}
+#los-angeles-dodgers{
+  left:105px;
+  top:387px;
+}
+#san-francisco-giants{
+  left:45px;
+  top:275px;
+}
+#cleveland-indians{
+  left:765px;
+  top:230px;
+}
+#florida-marlins{
+  left:855px;
+  top:590px;
+}
+#new-york-mets{
+  left:890px;
+  top:190px;
+}
+#washington-nationals{
+  left:840px;
+  top:290px;
+}
+#baltimore-orioles{
+  left:880px;
+  top:280px;
+}
+#san-diego-padres{
+  left:105px;
+  top:425px;
+}
+#philladelphia-phillies{
+  left:890px;
+  top:250px;
+}
+#pittsburg-pirates{
+  left:810px;
+  top:255px;
+}
+#texas-rangers{
+  left:510px;
+  top:465px;
+}
+#tampa-rays{
+  left:800px;
+  top:555px;
+}
+#cincinatti-reds{
+  left:735px;
+  top:300px;
+}
+#boston-redsox{
+  left:950px;
+  top:180px;
+}
+#colorado-rockies{
+  left:350px;
+  top:285px;
+}
+#kansas-city-royals{
+  left:540px;
+  top:290px;
+}
+#detroit-tigers{
+  left:740px;
+  top:215px;
+}
+#minnesota-twins{
+  left:560px;
+  top:180px;
+}
+#chicago-whitesox{
+  left:640px;
+  top:245px;
+}
+
+
+
+

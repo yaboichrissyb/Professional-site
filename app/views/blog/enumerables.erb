@@ -1,0 +1,57 @@
+<article class="article list-container">
+  <h4>Enumerables Cheat Sheet</h4>
+  <pre><code><b>Enumerable</b>(adj.):Able to be counted by one-to-one correspondence with the set of all positive integers.</code></pre>
+  <p>In Ruby, the enumerable methods give you the ability to move around and within, search, sort and manipulate the objects in a collection.  Here are some of the more popular and useful ones:</p>
+  <h5>each</h5>
+  <p>A method belonging to the Array module but useful for other collection classes.  Also known as an iterator, allows you to cycle through a block of code that acts or depends on each element in the collection.</p>
+  <pre><code>['cat', 'dog', 'pig', 'goat'].each{ |animal| puts animal }
+    =>  cat
+    =>  dog
+    =>  pig
+    =>  goat</code></pre>
+
+    <h5>each_with_index</h5>
+    <p>Allows you to sort through each element in a collection with reference to the element's position, passing the index as an optional argumet in the block.</p>
+    <pre><code>('A'..'Z').each_with_index do |letter, idx|   puts letter if idx % 3 == 2
+      end</code></pre>
+
+      <h5>each_with_object</h5>
+      <p>Alternative to inject.  Iterate over given block for each element with arbitrary object given, returns new value of initially given object.</p>
+      <pre><code>evens = (1..10).each_with_object([]) { |i, a| a << i*2 }
+        #=> [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]</code></pre>
+
+        <h5>each_slice</h5>
+        <p>Iterate over given block for each slive of n elements</p>
+        <pre><code>(1..10).each_slice(3) { |a| p a }
+          => [1, 2, 3]
+          => [4, 5, 6]
+          => [7, 8, 9]</code></pre>
+
+          <h5>include?</h5>
+          <p>Returns boolean, true if given object present in collection.</p>
+          <pre><code>a = [ "a", "b", "c" ]
+            a.include?("b")  => true
+            a.include?("z")  => false</code></pre>
+
+            <h5>map</h5>
+            <p>Invoke given block once for each element in collection, create a new array containing the values returned by the block.  Same as "collect".</p>
+            <pre><code>a = [ "a", "b", "c", "d"
+              ]a.collect { |x|x+"!" }        #=> ["a!", "b!", "c!", "d!"]
+              a.map.with_index{ |x, i|x*i } #=> ["", "b", "cc", "ddd"]</code></pre>
+
+              <h5>inject</h5>
+              <p>Combines all elements specified by a block or symbol that names am ethod or operator.  The result becomes the new vale of the first accumulator argument passed, which is then returned.</p>
+              <pre><code>(5..10).inject(1) { |product, n| product * n } #=> 151200</code></pre>
+
+              <h5>sort</h5>
+              <p>Returns a new array created by sorting self.  Comparisons for sort done using the <=> operator or additional code block.</p>
+              <pre><code> a = ["b", "d", "c", "a", "e"]
+                a.sort                 #=> ["a", "b", "c", "d", "e"]
+                a.sort { |x,y|y<=>x }  #=> ["e", "d", "c", "b", "a"]</code></pre>
+
+                <h5>count</h5>
+                <p>Returns the number of elements in a collection or, if argumen or block is given, the number of lements which equal the obj using ==.</p>
+                <pre><code>ary = [1, 2, 4, 2]
+                  ary.count                  #=> 4
+                  ary.count(2)               #=> 2
+                  ary.count { |x|x%2==0 }    #=> 3</code></pre></article>

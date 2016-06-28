@@ -1,0 +1,473 @@
+body{
+  width:100%;
+}
+footer {
+   border-top: 1px solid white;
+   padding-bottom: 10px;
+ }
+
+ #copy{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  margin:10px 10px 0 0;
+  padding:5px 10px;
+ }
+
+.hidden{
+  display:none;
+}
+#skills > li >a{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  text-decoration: none;
+  color:white;
+}
+
+.material-icons{
+  float: right;
+  padding-top: 2px;
+}
+.skill-container{
+  background-color:black;
+  color:white;
+  height: 100%;
+  width:100%;
+  padding: 20px 0 0 0;
+  margin-bottom: -5px;
+}
+#bubbletext{
+  opacity:0;
+  background-color:white;
+  color:black;
+  width: 100%;
+  height: auto;
+  padding: 30px 0 0 0;
+  border-top: 1px solid white;
+}
+
+.mission-container{
+  padding: 20px;
+}
+.skill-container a{
+  color:white;
+}
+#mission-statement{
+  margin: -70px auto -50px auto;
+}
+#mission{
+  margin-bottom: -20px;
+  min-width:70%;
+  opacity:0;
+  font-size: 5em;
+}
+.skills-text{
+  border-left: 1px solid white;
+}
+
+.skills-text > div{
+  margin-top: -8px;
+  margin-left: 20px;
+}
+.skill-name{
+  font-size: 1.5em;
+}
+#skills{
+  text-align: center;
+}
+#skills > li > a >h5:hover{
+ color: #4b4b4b;
+}
+
+.skills-text > div > div > h6{
+  line-height: 2;
+  font-size: .8em;
+}
+#skills-bars{
+  margin-top: 30px;
+}
+.skillbar-title {
+  top:0;
+  left:0;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+#contact{
+  border-top: 1px solid white;
+  width:100%;
+  height:400px;
+  background-color: black;
+}
+
+
+.list-container{
+  margin:5% 20% 5% 20%;
+}
+
+.blurb{
+  margin-bottom: 20px;
+}
+
+.blurb > a{
+  color: black;
+  font-size:1.5em;
+}
+.blurb > a:hover{
+  color:#4b4b4b;
+}
+
+.blurb > p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+.blurb > span{
+  font-size: .9em;
+  color:#4b4b4b;
+  font-weight: 700;
+}
+
+#modal1 {
+  color:black;
+  padding:20px;
+  }
+.input-row{
+  height:20px;
+}
+
+#social{
+  /*width:30%;*/
+  /*float:right;*/
+  margin: 30px 20% 0 0;
+  border-top: 1px solid white;
+}
+#social a{
+  margin-left: 30px;
+  color:white;
+  font-size: 1.2em;
+}
+
+#social td{
+  padding:20px;
+}
+#skills td{
+  padding:7px;
+}
+#social td:hover, #skills td:hover{
+  background-color:#4b4b4b;
+};
+
+#social i{
+  color:white;
+}
+
+
+#social img{
+  float: right;
+}
+.footer-copyright{
+  color:grey;
+}
+
+#summary{
+  margin-top: 60px;
+  font-size: 1.2em;
+}
+#copy{
+  margin-left: -12px;
+}
+
+.short{
+  border-bottom: 1px solid white;
+}
+#arrow{
+  margin-left: 47%;
+  padding-top: 10px;
+  height:5em;
+  opacity:0.0;
+}
+
+.project-container{
+  margin: 20px 20% 20px 20% ;
+  padding:10px;
+  text-align: left;
+}
+
+.project-container:hover .card-title{
+  color:#bebebe;
+  /*background-color:black;
+  color:white;*/
+}
+.project-container a{
+  color: #bebebe;
+}
+.project-container a:hover{
+  color:white;
+}
+.card-links a{
+  margin:0 20px 0 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+pre{
+  border:1px solid black;
+  border-radius: 5px;
+  background:#bebebe;
+  padding:10px;
+}
+.project-content{
+  height:800px;
+  width:100%;
+  margin-bottom: -21px;
+}
+
+.article{
+  line-height: 2em;
+}
+.skills-text div h6{
+  line-height: 200%;
+  font-size: 1.2em;
+}
+.footer-container{
+  padding-bottom: 20px;
+}
+.strike-through{
+  text-decoration: line-through;
+}
+
+#resume{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 10%;
+  max-width:80%;
+  height: auto;
+}
+.sandwich{
+  font-size: 3em;
+  margin-top: 15px;
+}
+#dropdown1{
+  margin-top: 28px;
+  margin-left: 30px;
+}
+.dropdown-item{
+  padding:0px;
+}
+#dropdown1 a:hover{
+  color: #bebebe;
+}
+.black-text{
+  font-size: 10em;
+}
+.dropdown-content{
+  margin-top: 0px;
+}
+
+.mission-container{
+  margin-top: 80px;
+}
+.flow{
+  font-size: 6.2vw;
+  padding:0px;
+  padding-left:-30px;
+}
+
+.post-title{
+  text-decoration: none;
+}
+@media all and (min-width: 993px){
+  #pixelme{
+    opacity:0;
+    margin-top: 20px;
+    height:240px;
+  }
+  .star{margin-left: 4px;}
+  #mission-statement{margin: 20px auto 20px auto;}
+
+
+}
+@media all and (max-width: 992px) {
+    .skills-text > div {margin-left:0px;}
+    .skills-text > div > h6{margin-left: 10px;}
+    .footer-container{margin-left:10px;}
+    .article{margin:5% 10% 5% 10%;}
+    .project-container{margin:5% 10% 5% 10%;}
+    #summary{margin-top: 55px;}
+    #pixelme{
+      opacity:0;
+      margin-top: 30px;
+      height:240px;
+
+    }
+  .star{margin-left: 2px;}
+  .skill-name{font-size: 1.24em;}
+  #mission-statement{margin: 30px auto 30px auto;}
+
+
+
+
+}
+@media all and (max-width: 600px) {
+   .skills-text { border: none; }
+    #mission div div { font-size: .38em; }
+    #summary{margin-top: 20px;}
+    .footer-container{margin-left:20px;}
+    .skills-text > div{margin-left:10px;}
+    .section-header{margin-left: 30px;}
+    #pixelme{
+      opacity:0;
+      height:240px;
+      margin-top: 40px;
+    }
+  .star{margin-left: 1px;}
+  #mission-statement{margin: -70px auto -50px 20px;}
+  #arrow{margin-left: 40%;}
+  .star-name{font-size: .9em;}
+
+}
+
+.skillbar {
+  position:relative;
+  display:block;
+  margin-bottom:15px;
+  width:100%;
+  background:#eee;
+  height:35px;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  -webkit-transition:0.4s linear;
+  -moz-transition:0.4s linear;
+  -ms-transition:0.4s linear;
+  -o-transition:0.4s linear;
+  transition:0.4s linear;
+  -webkit-transition-property:width, background-color;
+  -moz-transition-property:width, background-color;
+  -ms-transition-property:width, background-color;
+  -o-transition-property:width, background-color;
+  transition-property:width, background-color;
+}
+
+.skillbar-title {
+  position:absolute;
+  top:0;
+  left:0;
+width:110px;
+  font-weight:bold;
+  font-size:13px;
+  color:#ffffff;
+  background:#6adcfa;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:4px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-title span {
+  display:block;
+  background:rgba(0, 0, 0, 0.1);
+  padding:0 20px;
+  height:35px;
+  line-height:35px;
+  -webkit-border-top-left-radius:3px;
+  -webkit-border-bottom-left-radius:3px;
+  -moz-border-radius-topleft:3px;
+  -moz-border-radius-bottomleft:3px;
+  border-top-left-radius:3px;
+  border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+  height:35px;
+  width:0px;
+  background:#6adcfa;
+  border-radius:3px;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+  position:absolute;
+  right:10px;
+  top:0;
+  font-size:15px;
+  height:35px;
+  font-weight: 700;
+  line-height:35px;
+  color:#ffffff;
+  color:rgba(0, 0, 0, 0.4);
+}
+
+.heading-image{
+  height:50px;
+  width:auto;
+  margin-left: 10px;
+
+}
+.heading-text{
+  margin-top: 5px;
+  font-size: 2em;
+  position:absolute;
+  margin-left: 20px;
+}
+.about-me-text{
+  line-height: 2em;
+
+}
+
+.star{
+  height:10px;
+}
+.star-container{
+}
+.star-row, .star-row-decimal{
+  clear:both;
+}
+.star-number, .star-name{
+  font-weight:700;
+}
+
+.word-bubble{
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 3px;
+  position: relative;
+  margin-bottom: 10px;
+}
+.word-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+.lefter {
+    border-color: transparent black black transparent;
+    border-width: 15px 15px 0px 15px;
+    left: -31px;
+    top:40px;
+}
+.lefter:after {
+    border-color: transparent white white transparent;
+    border-style: solid;
+    border-width: 12px 12px 0px 12px;
+    bottom: 5px;
+    content: "";
+    position: absolute;
+    left:-7px;
+    top:-14px;
+}
+#about-me-skills{
+  opacity: 0;
+  margin-top: -41px;
+}
+.star-row, .star-row-decimal{
+  padding: 5px;
+}
