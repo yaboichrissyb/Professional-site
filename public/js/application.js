@@ -20,7 +20,7 @@
   });
 
 
-   $("#mission > div >div").mouseenter(function(){
+   $("#mission-statement").mouseenter(function(){
     $("#arrow").animate({opacity: 1.0},500);
    }).mouseleave(function(){
     $("#arrow").animate({opacity: 0.0},500);
