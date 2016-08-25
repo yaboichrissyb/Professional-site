@@ -15,9 +15,6 @@ get '/blog' do
   erb :'blog/index'
 end
 
-get '/resume' do
-  erb :'resume'
-end
 get '/blog/:title' do
   erb :"blog/#{params[:title]}"
 end
